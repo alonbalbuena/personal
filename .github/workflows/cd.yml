@@ -20,11 +20,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install dependencies
-        run: yarn
-
       - name: Generate
-        run: yarn generate
+        run: npm run generate
+
+      - name: Fix Assets
+        run: npm run fix-assets
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
