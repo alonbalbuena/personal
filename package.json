@@ -4,7 +4,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "postgenerate": "node fixAssetsPath.mjs",
+    "fix-assets": "node fixAssetsPath.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
