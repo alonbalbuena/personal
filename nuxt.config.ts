@@ -4,7 +4,8 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
   target: 'static', router: {
     base: '/personal/_nuxt/'
-  }, vite: {
-    base: '/personal/_nuxt/'
-  }
+  },
+  modules: [
+    '@nuxt/content'
+  ],
 });
