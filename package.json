@@ -3,6 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "postgenerate": "npm run fix-assets",
     "generate": "nuxt generate",
     "fix-assets": "node fixAssetsPath.mjs",
     "preview": "nuxt preview",

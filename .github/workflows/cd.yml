@@ -26,9 +26,6 @@ jobs:
       - name: Generate
         run: npm run generate
 
-      - name: Fix Assets
-        run: npm run fix-assets
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
