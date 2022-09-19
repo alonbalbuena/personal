@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
   content: {
-    documentDriven: true
+    documentDriven: true,
+    layoutFallbacks: ['theme'],
   }
 });
