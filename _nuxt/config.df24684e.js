@@ -1,0 +1,1 @@
+import{s as f,D as s,E as a}from"./entry.5045836b.js";function t(p,n){for(const i in n){const o=n[i];o!==null&&typeof o=="object"?t(p[i],o):p[i]=o}}function e(){const p=f();return p._appConfig||(p._appConfig=s(a)),p._appConfig}function c(p){const n=e();t(n,p)}export{c as a,e as u};

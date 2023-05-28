@@ -1,0 +1,1 @@
+import"./EditOnLink.vue_vue_type_script_lang.247c5ec7.js";import{_ as i}from"./EditOnLink.vue_vue_type_script_lang.247c5ec7.js";import"./entry.5045836b.js";import"./config.df24684e.js";export{i as default};
